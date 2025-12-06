@@ -8,7 +8,7 @@ export default function AppLayout({ children }){
   return (
     <Layout className="min-h-screen">
       <Sider theme="light" width={220} className="p-4">
-        <div className="text-lg font-bold mb-6">Acme Corp</div>
+        <div className="text-lg font-bold mb-6">AntD</div>
         <Menu
           mode="inline"
           defaultSelectedKeys={["1"]}
